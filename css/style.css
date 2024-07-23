@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/*----共有部分--------------------------*/
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: goldenrod;
+    color:aliceblue;
+    border-radius:30px ;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+    transition: all 0.5s;
+}
+.button:hover{
+    background-color: grey;
+}
+.wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.page-header{
+    display:flex;
+    padding: 5px 10px;
+    justify-content:space-between;
+}
+.logo{
+    width: 50px;height: 50px;
+}
+.header-button{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color:aliceblue ;
+    border-radius:30px ;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.5s;
+}
+.header-navi{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+    font-weight: bold; 
+}
+.header-navi li{
+    margin-left: 30px;  
+}
+.header-button:hover{
+    background-color: grey;
+}
+.space{
+    width: 100%;
+    height: 70px;
+    background-color:  rgb(35, 31, 27);;
+}
+.theme{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 30px;
+    padding-top: 50px;
+    color: aliceblue;
+}
+.otherpage{
+    background-color: rgb(55, 56, 57);
+    position: fixed;
+    width: 100%;
+}
+.introductionpage-content{
+    display: flex;
+    justify-content: space-between;
+}
+.introductionpage-article{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.introductionpage-content h1{
+    text-align: center;
+    width: 100%;
+    font-size: 2.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(56, 152, 237);
+}
+footer{
+    background-color: rgb(35, 31, 27);;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 0;
+}
+/*----HomePage主页----------------------*/
+#homepage{
+    background-image: url(../img/homepage1.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.hg{
+    background-color: aliceblue;
+}
+.organization{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.homepagehead-content{
+    font-family: initial;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.homepagelogo{
+    width: 160px;height: 160px;
+}
+.homepageHeaderarticle{
+    font-family:serif ;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 40px;
+}
+.homepageHeaderlink{
+    margin-top: 20px;
+}
+.homepageHeaderlink a{
+    display: block;
+    margin: 0 auto;
+}
+.hometheme{
+    text-align: center;
+    width: 100%;
+    font-size: 2.5em;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(8, 161, 222);
+}
+.homepage-content{
+    background-color: rgb(188, 220, 248);
+    margin-top: 40px;
+    border-radius: 20px;
+}
+/*----SecectionPage---------------------------------------*/
+.dubaibox{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/dubais.jpg);
+    background-size: cover;
+}
+.climatebox{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/cliamteb.jpg);
+    background-size: cover;
+}
+.facebox{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/faceclimate.jpg);
+    background-size: cover;
+}
+.indiabox{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/indiac.jpg);
+    background-size: cover;
+}
+.selectionpagelink{
+    margin-top: 100px;
+}
+.selectionpagelink a{
+    display: block;
+    margin: 0 50px;
+}
+.selectionpagearticle{
+    margin-top: 20px;
+    padding: 20px 50px;
+    font-family: serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+/*----dubai---------------------------------------*/
+.dubaipagehead{
+    background-image: url(../img/headerimage.jpg);
+    height: 450px;
+    background-size: cover;
+}
+.dubaipagefoot{
+    background-image: url(../img/dubaifooter.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.dubaipageimage img{
+    margin:auto;
+    width: 700px;
+    height:500px;
+    border-radius: 50px;
+}
+/*----climatepage-------------------------------------*/
+.climatepagehead {
+    background-image: url(../img/climate-change-8405380_1280.png);
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+.climatepagefoot{
+    background-image: url(../img/climatefooter.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.climatepageimage img{
+    margin:auto;
+    width: 700px;
+    height:500px;
+    border-radius: 50px;
+}
+/*----facetoClimate---------------------------------------*/
+.facepagehead{
+    background-image: url(../img/earth-4180280_1920.jpg);
+    height: 450px;
+    background-size: cover;
+}
+.facepagefoot{
+    background-image: url(../img/facefooter.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.facepageimage img{
+    margin:auto;
+    width: 700px;
+    height:500px;
+    border-radius: 50px;
+}
+/*----india---------------------------------------*/
+.indiapagehead{
+    background-image: url(../img/indiaheader.jpg);
+    height: 450px;
+    background-size: cover;
+}
+.indiapagefoot{
+    background-image: url(../img/facefooter.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.indiapageimage img{
+    margin:auto;
+    width: 700px;
+    height:500px;
+    border-radius: 50px;
+}
+/*----Animation----------------------------------------------*/
+@keyframes it{
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1.0);}
+}
